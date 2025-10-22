@@ -1,0 +1,123 @@
+{"model_file": "unet_model_000.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 3], "flops": 32.3584, "params": 0.011353}
+{"model_file": "unet_model_001.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 5], "flops": 40.747008, "params": 0.019545}
+{"model_file": "unet_model_002.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 3], "flops": 73.252864, "params": 0.021337}
+{"model_file": "unet_model_003.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 5], "flops": 81.641472, "params": 0.029529}
+{"model_file": "unet_model_004.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 1, "kernel_sizes": [3, 3], "flops": 125.00992, "params": 0.044337}
+{"model_file": "unet_model_005.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 1, "kernel_sizes": [3, 5], "flops": 158.564352, "params": 0.077105}
+{"model_file": "unet_model_006.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 1, "kernel_sizes": [5, 3], "flops": 282.29632, "params": 0.082737}
+{"model_file": "unet_model_007.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 1, "kernel_sizes": [5, 5], "flops": 315.850752, "params": 0.115505}
+{"model_file": "unet_model_008.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 32, "depth": 1, "kernel_sizes": [3, 3], "flops": 491.19232, "params": 0.175201}
+{"model_file": "unet_model_009.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 32, "depth": 1, "kernel_sizes": [3, 5], "flops": 625.410048, "params": 0.306273}
+{"model_file": "unet_model_010.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 32, "depth": 1, "kernel_sizes": [5, 3], "flops": 1107.755008, "params": 0.325729}
+{"model_file": "unet_model_011.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 32, "depth": 1, "kernel_sizes": [5, 5], "flops": 1241.972736, "params": 0.456801}
+{"model_file": "unet_model_012.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 64, "depth": 1, "kernel_sizes": [3, 5], "flops": 2483.945472, "params": 1.220801}
+{"model_file": "unet_model_013.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 64, "depth": 1, "kernel_sizes": [5, 3], "flops": 4388.159488, "params": 1.292481}
+{"model_file": "unet_model_014.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 64, "depth": 1, "kernel_sizes": [5, 5], "flops": 4925.0304, "params": 1.816769}
+{"model_file": "unet_model_015.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 3], "flops": 129.4336, "params": 0.011353}
+{"model_file": "unet_model_016.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 5], "flops": 162.988032, "params": 0.019545}
+{"model_file": "unet_model_017.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 3], "flops": 293.011456, "params": 0.021337}
+{"model_file": "unet_model_018.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 5], "flops": 326.565888, "params": 0.029529}
+{"model_file": "unet_model_019.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 1, "kernel_sizes": [3, 3], "flops": 500.03968, "params": 0.044337}
+{"model_file": "unet_model_020.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 1, "kernel_sizes": [3, 5], "flops": 634.257408, "params": 0.077105}
+{"model_file": "unet_model_021.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 1, "kernel_sizes": [5, 3], "flops": 1129.18528, "params": 0.082737}
+{"model_file": "unet_model_022.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 1, "kernel_sizes": [5, 5], "flops": 1263.403008, "params": 0.115505}
+{"model_file": "unet_model_023.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 3], "flops": 517.7344, "params": 0.011353}
+{"model_file": "unet_model_024.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 5], "flops": 651.952128, "params": 0.019545}
+{"model_file": "unet_model_025.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 3], "flops": 1172.045824, "params": 0.021337}
+{"model_file": "unet_model_026.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 5], "flops": 1306.263552, "params": 0.029529}
+{"model_file": "unet_model_027.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 3], "flops": 2070.9376, "params": 0.011353}
+{"model_file": "unet_model_028.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 1, "kernel_sizes": [3, 5], "flops": 2607.808512, "params": 0.019545}
+{"model_file": "unet_model_029.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 3], "flops": 4688.183296, "params": 0.021337}
+{"model_file": "unet_model_030.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 1, "kernel_sizes": [5, 5], "flops": 5225.054208, "params": 0.029529}
+{"model_file": "unet_model_031.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 62.676992, "params": 0.054777}
+{"model_file": "unet_model_032.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 71.0656, "params": 0.087545}
+{"model_file": "unet_model_033.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 3], "flops": 108.814336, "params": 0.099833}
+{"model_file": "unet_model_034.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 5], "flops": 117.202944, "params": 0.132601}
+{"model_file": "unet_model_035.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 103.571456, "params": 0.064761}
+{"model_file": "unet_model_036.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 111.960064, "params": 0.097529}
+{"model_file": "unet_model_037.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 3], "flops": 149.7088, "params": 0.109817}
+{"model_file": "unet_model_038.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 5], "flops": 158.097408, "params": 0.142585}
+{"model_file": "unet_model_039.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 245.940224, "params": 0.217713}
+{"model_file": "unet_model_040.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 279.494656, "params": 0.348785}
+{"model_file": "unet_model_041.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 5, 3], "flops": 430.4896, "params": 0.397937}
+{"model_file": "unet_model_042.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 5, 5], "flops": 464.044032, "params": 0.529009}
+{"model_file": "unet_model_043.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 403.226624, "params": 0.256113}
+{"model_file": "unet_model_044.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 436.781056, "params": 0.387185}
+{"model_file": "unet_model_045.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 5, 3], "flops": 587.776, "params": 0.436337}
+{"model_file": "unet_model_046.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 5, 5], "flops": 621.330432, "params": 0.567409}
+{"model_file": "unet_model_047.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 250.707968, "params": 0.054777}
+{"model_file": "unet_model_048.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 284.2624, "params": 0.087545}
+{"model_file": "unet_model_049.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 3], "flops": 435.257344, "params": 0.099833}
+{"model_file": "unet_model_050.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 5], "flops": 468.811776, "params": 0.132601}
+{"model_file": "unet_model_051.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 414.285824, "params": 0.064761}
+{"model_file": "unet_model_052.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 447.840256, "params": 0.097529}
+{"model_file": "unet_model_053.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 3], "flops": 598.8352, "params": 0.109817}
+{"model_file": "unet_model_054.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 5], "flops": 632.389632, "params": 0.142585}
+{"model_file": "unet_model_055.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 983.760896, "params": 0.217713}
+{"model_file": "unet_model_056.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 1117.978624, "params": 0.348785}
+{"model_file": "unet_model_057.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 5, 3], "flops": 1721.9584, "params": 0.397937}
+{"model_file": "unet_model_058.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 1612.906496, "params": 0.256113}
+{"model_file": "unet_model_059.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 1747.124224, "params": 0.387185}
+{"model_file": "unet_model_060.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 5, 3], "flops": 2351.104, "params": 0.436337}
+{"model_file": "unet_model_061.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 1002.831872, "params": 0.054777}
+{"model_file": "unet_model_062.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 1137.0496, "params": 0.087545}
+{"model_file": "unet_model_063.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 3], "flops": 1741.029376, "params": 0.099833}
+{"model_file": "unet_model_064.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 5, 5], "flops": 1875.247104, "params": 0.132601}
+{"model_file": "unet_model_065.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 1657.143296, "params": 0.064761}
+{"model_file": "unet_model_066.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 1791.361024, "params": 0.097529}
+{"model_file": "unet_model_067.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 3], "flops": 2395.3408, "params": 0.109817}
+{"model_file": "unet_model_068.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 5, 5], "flops": 2529.558528, "params": 0.142585}
+{"model_file": "unet_model_069.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 3935.043584, "params": 0.217713}
+{"model_file": "unet_model_070.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 16, "depth": 2, "kernel_sizes": [3, 3, 5], "flops": 4471.914496, "params": 0.348785}
+{"model_file": "unet_model_071.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 6451.625984, "params": 0.256113}
+{"model_file": "unet_model_072.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 16, "depth": 2, "kernel_sizes": [5, 3, 5], "flops": 6988.496896, "params": 0.387185}
+{"model_file": "unet_model_073.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 2, "kernel_sizes": [3, 3, 3], "flops": 4011.327488, "params": 0.054777}
+{"model_file": "unet_model_074.onnx", "input_channels": 3, "input_size": 512, "initial_channels": 8, "depth": 2, "kernel_sizes": [5, 3, 3], "flops": 6628.573184, "params": 0.064761}
+{"model_file": "unet_model_075.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 3, "kernel_sizes": [3, 3, 3, 5], "flops": 400.252928, "params": 1.434865}
+{"model_file": "unet_model_076.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 16, "depth": 3, "kernel_sizes": [5, 3, 3, 5], "flops": 557.539328, "params": 1.473265}
+{"model_file": "unet_model_077.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 3, 3], "flops": 371.638272, "params": 0.228153}
+{"model_file": "unet_model_078.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 5, 3], "flops": 556.187648, "params": 0.408377}
+{"model_file": "unet_model_079.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 3, 3], "flops": 556.187648, "params": 0.273209}
+{"model_file": "unet_model_080.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 5, 3], "flops": 740.737024, "params": 0.453433}
+{"model_file": "unet_model_081.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 3, 3], "flops": 535.216128, "params": 0.238137}
+{"model_file": "unet_model_082.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 3, 5], "flops": 568.77056, "params": 0.369209}
+{"model_file": "unet_model_083.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 5, 3], "flops": 719.765504, "params": 0.418361}
+{"model_file": "unet_model_084.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 5, 5], "flops": 753.319936, "params": 0.549433}
+{"model_file": "unet_model_085.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 3, 5], "flops": 753.319936, "params": 0.414265}
+{"model_file": "unet_model_086.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 5, 3], "flops": 904.31488, "params": 0.463417}
+{"model_file": "unet_model_087.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 5, 5], "flops": 937.869312, "params": 0.594489}
+{"model_file": "unet_model_088.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 3, 3], "flops": 1486.553088, "params": 0.228153}
+{"model_file": "unet_model_089.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 3, 5], "flops": 1620.770816, "params": 0.359225}
+{"model_file": "unet_model_090.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 5, 3], "flops": 2224.750592, "params": 0.408377}
+{"model_file": "unet_model_091.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 3, 5, 5], "flops": 2358.96832, "params": 0.539449}
+{"model_file": "unet_model_092.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 3, 3], "flops": 2224.750592, "params": 0.273209}
+{"model_file": "unet_model_093.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 3, 5], "flops": 2358.96832, "params": 0.404281}
+{"model_file": "unet_model_094.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 5, 3], "flops": 2962.948096, "params": 0.453433}
+{"model_file": "unet_model_095.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [3, 5, 5, 5], "flops": 3097.165824, "params": 0.584505}
+{"model_file": "unet_model_096.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 3, 3], "flops": 2140.864512, "params": 0.238137}
+{"model_file": "unet_model_097.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 3, 5], "flops": 2275.08224, "params": 0.369209}
+{"model_file": "unet_model_098.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 5, 3], "flops": 2879.062016, "params": 0.418361}
+{"model_file": "unet_model_099.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 3, 5, 5], "flops": 3013.279744, "params": 0.549433}
+{"model_file": "unet_model_100.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 3, 3], "flops": 2879.062016, "params": 0.283193}
+{"model_file": "unet_model_101.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 3, 5], "flops": 3013.279744, "params": 0.414265}
+{"model_file": "unet_model_102.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 5, 3], "flops": 3617.25952, "params": 0.463417}
+{"model_file": "unet_model_103.onnx", "input_channels": 3, "input_size": 256, "initial_channels": 8, "depth": 3, "kernel_sizes": [5, 5, 5, 5], "flops": 3751.477248, "params": 0.594489}
+{"model_file": "unet_model_104.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 3, 3, 3, 3], "flops": 123.099136, "params": 0.921017}
+{"model_file": "unet_model_105.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 3, 3, 3, 5], "flops": 131.487744, "params": 1.445305}
+{"model_file": "unet_model_106.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 3, 5, 3, 3], "flops": 169.23648, "params": 1.101241}
+{"model_file": "unet_model_107.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 5, 3, 3, 3], "flops": 169.23648, "params": 0.966073}
+{"model_file": "unet_model_108.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 5, 3, 3, 5], "flops": 177.625088, "params": 1.490361}
+{"model_file": "unet_model_109.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 5, 5, 3, 3], "flops": 215.373824, "params": 1.146297}
+{"model_file": "unet_model_110.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 3, 3, 3, 3], "flops": 163.9936, "params": 0.931001}
+{"model_file": "unet_model_111.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 3, 3, 3, 5], "flops": 172.382208, "params": 1.455289}
+{"model_file": "unet_model_112.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 3, 5, 3, 3], "flops": 210.130944, "params": 1.111225}
+{"model_file": "unet_model_113.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 5, 3, 3, 3], "flops": 210.130944, "params": 0.976057}
+{"model_file": "unet_model_114.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 5, 3, 3, 5], "flops": 218.519552, "params": 1.500345}
+{"model_file": "unet_model_115.onnx", "input_channels": 3, "input_size": 64, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 5, 5, 3, 3], "flops": 256.268288, "params": 1.156281}
+{"model_file": "unet_model_116.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 3, 3, 3, 3], "flops": 492.396544, "params": 0.921017}
+{"model_file": "unet_model_117.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 3, 5, 3, 3], "flops": 676.94592, "params": 1.101241}
+{"model_file": "unet_model_118.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 5, 3, 3, 3], "flops": 676.94592, "params": 0.966073}
+{"model_file": "unet_model_119.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [3, 5, 5, 3, 3], "flops": 861.495296, "params": 1.146297}
+{"model_file": "unet_model_120.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 3, 3, 3, 3], "flops": 655.9744, "params": 0.931001}
+{"model_file": "unet_model_121.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 3, 5, 3, 3], "flops": 840.523776, "params": 1.111225}
+{"model_file": "unet_model_122.onnx", "input_channels": 3, "input_size": 128, "initial_channels": 8, "depth": 4, "kernel_sizes": [5, 5, 3, 3, 3], "flops": 840.523776, "params": 0.976057}

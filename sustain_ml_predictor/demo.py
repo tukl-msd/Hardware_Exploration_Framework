@@ -31,7 +31,7 @@ def test_predictor(device, models_dir, models_stats_file, prediction_model_file,
             target = measurements[idx][metric]
             all_targets.append(target)
         else:
-            raise Exception(f"Inconsistency between the model name and the measurement: {os.path.basename(model_file)} vs. {measurements[idx]['model_file']}")
+            raise Exception(f"Inconsistency between the model name and the measurement: {os.path.basename(model_file)} vs. {measurements[idx]['model_file']}")        
     
     spearman = spearmanr(all_preds, all_targets).correlation
     tau, p_value = kendalltau(all_preds, all_targets)
@@ -63,10 +63,11 @@ if __name__ == '__main__':
       
     predictors = {
         "xczu19eg-ffvb1517-2-i": {
-            "latency": "predictor_model_latency.onnx",
-            "power": "predictor_model_power.onnx"
+            "energy_dynamic": "predictor_model_energy_dynamic.onnx",
+            "energy_board_runtime": "predictor_model_energy_board_runtime.onnx",
+            "latency": "predictor_model_latency.onnx"
             }
-    }
+    }    
     
     for metric, prediction_model_file in predictors[args.device].items():
         print(f"Predict {metric} for {args.device}:")

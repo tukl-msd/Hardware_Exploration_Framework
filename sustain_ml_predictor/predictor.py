@@ -398,12 +398,12 @@ def predict(onnx_model_file, models_stats_file, prediction_model_file):
     arch = extract_unet_info(onnx_model_file)
     arch_encoding = arch_encoding_unet(arch)    
    
-    adj_matrix, node_features, op_types = adj_matrix_node_features_from_onnx(onnx_model_file, visualize=VISUALIZE_MODEL)
+    adj_matrix, node_features_, op_types = adj_matrix_node_features_from_onnx(onnx_model_file, visualize=VISUALIZE_MODEL)
     
     # Have to be updated considering the statistics of the complete design space (all topologies)
     # The adjacency matrix and the node features are used as an input to Graph Convolutional Networks (GCN)
     adj_matrix = update_adj_matrix(adj_matrix, stats)     
-    node_features = update_node_features(node_features, stats)
+    node_features = update_node_features(node_features_, stats)
     
     adj_matrix = adj_matrix.astype(np.float32)
     node_features = node_features.astype(np.float32)
@@ -432,10 +432,12 @@ if __name__ == '__main__':
    
     predictors = {
         "xczu19eg-ffvb1517-2-i": {
-            "latency": "predictor_model_latency.onnx",
-            "power": "predictor_model_power.onnx"
+            "energy_dynamic": "predictor_model_energy_dynamic.onnx",
+            "energy_board_runtime": "predictor_model_energy_board_runtime.onnx",
+            "latency": "predictor_model_latency.onnx"
             }
-    }
+    }  
+    
     prediction_model_file = os.path.join(args.device, predictors[args.device][args.metric])
     pred = predict(args.model_file, args.models_stats_file, prediction_model_file)
     

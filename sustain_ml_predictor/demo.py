@@ -8,9 +8,9 @@ import json
 from scipy.stats import spearmanr
 from scipy.stats import kendalltau
 
-from predictor import predict
+from predictor import predict, get_denormalizer
 
-def test_predictor(device, models_dir, models_stats_file, prediction_model_file, measurements_file, metric):
+def test_predictor(device, models_dir, models_stats_file, prediction_model_file, measurements_file, metric, denormalizer):
     
     model_files = [os.path.join(models_dir, f) for f in os.listdir(models_dir) if f.endswith(".onnx")]
     model_files.sort(key=lambda x: os.path.basename(x))
@@ -24,7 +24,7 @@ def test_predictor(device, models_dir, models_stats_file, prediction_model_file,
     all_preds = []
     all_targets = []
     for idx, model_file in enumerate(tqdm(model_files)):    
-        pred = predict(model_file, models_stats_file, prediction_model_file)
+        pred = predict(model_file, models_stats_file, prediction_model_file, denormalizer)
         all_preds.append(pred)
         
         if measurements[idx]["model_file"] == os.path.basename(model_file):
@@ -73,7 +73,9 @@ if __name__ == '__main__':
         print(f"Predict {metric} for {args.device}:")
         prediction_model_file = os.path.join(args.device, predictors[args.device][metric])
         measurements_file = os.path.join(args.device, "measurements.jsonl")
-        test_predictor(args.device, args.models_dir, args.models_stats_file, prediction_model_file, measurements_file, metric)
+        measurements_stats_file = os.path.join(args.device, "measurements_stats.json")
+        denormalizer = get_denormalizer(metric, measurements_stats_file)
+        test_predictor(args.device, args.models_dir, args.models_stats_file, prediction_model_file, measurements_file, metric, denormalizer)
 
 
 
